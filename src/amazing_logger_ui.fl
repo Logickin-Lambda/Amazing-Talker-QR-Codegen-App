@@ -1,0 +1,29 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0400
+header_name {.h}
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window {} {open
+      xywh {369 1108 744 814} type Double color 0 visible
+    } {
+      Fl_Input url_path {
+        label {Url: } selected
+        xywh {75 89 515 46} box FLAT_BOX color 51 labelfont 4 labelcolor 7 textfont 4
+      }
+      Fl_Button generate_btn {
+        label {Generate!}
+        xywh {615 90 95 45} box FLAT_BOX color 221 labelcolor 55
+      }
+      Fl_Box qr_code_field {
+        xywh {75 168 600 600}
+      }
+      Fl_Box title {
+        label {Amazing Talker QR Code Logger}
+        xywh {10 19 730 66} labelfont 5 labelsize 32 labelcolor 7
+      }
+    }
+  }
+}
