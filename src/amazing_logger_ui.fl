@@ -21,7 +21,7 @@ class UserInterface {open
         xywh {75 168 600 600}
       }
       Fl_Box title {
-        label {Amazing Talker QR Code Logger}
+        label {Amazing Talker Zoom QR Generator}
         xywh {10 19 730 66} labelfont 5 labelsize 32 labelcolor 7
       }
     }
